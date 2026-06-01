@@ -1,6 +1,6 @@
 module github.com/aerokube/selenoid
 
-go 1.25.0
+go 1.25.10
 
 require (
 	github.com/aerokube/ggr v0.0.0-20241217115549-5adb7fc43fdb
