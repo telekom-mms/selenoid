@@ -42,6 +42,7 @@ jobs:
       - name: Release image
         uses: docker/build-push-action@v7
         with:
+          context: .
           push: true
           tags: ghcr.io/telekom-mms/selenoid:latest,ghcr.io/telekom-mms/selenoid:${{ env.RELEASE_VERSION }}
 
